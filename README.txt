@@ -1,13 +1,15 @@
 
 
 Requiremtns 
-Create a server and in sudo vagrant with password rest %admin with passowrd
+Create a server add in sudo vagrant without password rest %admin can sudo with passowrd
+
 create web app
+
 Run on two boxes and load balance with nginx 
+
 #####################
 Mac os x / or runig web server on port 80
 Please change ports to 8080 or something of your liking 
-
 
 # Following are steps
 
