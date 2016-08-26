@@ -1,0 +1,7 @@
+DEPENDENCIES
+  testca
+    path: .
+    metadata: true
+
+GRAPH
+  testca (0.1.0)

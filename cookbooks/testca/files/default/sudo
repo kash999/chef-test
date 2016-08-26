@@ -1,0 +1,12 @@
+# User privilege specification
+root          ALL=(ALL) ALL
+
+#vagrant no password require
+
+vagrant       ALL=(ALL) NOPASSWD:ALL
+
+# Members of the group 'admin' may gain root privileges
+%admin 		  ALL=(ALL) ALL
+
+# This is not a comment; see sudoers(5) for more information on "#include" directives
+#includedir /etc/sudoers.d

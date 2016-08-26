@@ -1,0 +1,218 @@
+I, [2016-08-25T14:58:50.326805 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: -----> Cleaning up any prior instances of <default-puppetlabs-ubuntu-1404-64-nocm>
+I, [2016-08-25T14:58:50.328284 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: -----> Destroying <default-puppetlabs-ubuntu-1404-64-nocm>...
+I, [2016-08-25T14:58:50.331791 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Finished destroying <default-puppetlabs-ubuntu-1404-64-nocm> (0m0.00s).
+I, [2016-08-25T14:58:50.332789 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: -----> Testing <default-puppetlabs-ubuntu-1404-64-nocm>
+I, [2016-08-25T14:58:50.334291 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: -----> Creating <default-puppetlabs-ubuntu-1404-64-nocm>...
+I, [2016-08-25T14:58:51.962289 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2016-08-25T14:58:52.667206 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: ==> default: Importing base box 'puppetlabs/ubuntu-14.04-64-nocm'...
+I, [2016-08-25T14:59:05.443378 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: [K==> default: Matching MAC address for NAT networking...
+I, [2016-08-25T14:59:05.707325 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: ==> default: Checking if box 'puppetlabs/ubuntu-14.04-64-nocm' is up to date...
+I, [2016-08-25T14:59:08.484294 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: ==> default: Setting the name of the VM: kitchen-testca-default-puppetlabs-ubuntu-1404-64-nocm_default_1472133548403_32874
+I, [2016-08-25T14:59:11.298709 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: ==> default: Clearing any previously set network interfaces...
+I, [2016-08-25T14:59:11.468195 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: ==> default: Preparing network interfaces based on configuration...
+I, [2016-08-25T14:59:11.468195 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     default: Adapter 1: nat
+I, [2016-08-25T14:59:11.606852 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: ==> default: Forwarding ports...
+I, [2016-08-25T14:59:11.796955 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     default: 22 (guest) => 2222 (host) (adapter 1)
+I, [2016-08-25T14:59:12.175366 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: ==> default: Booting VM...
+I, [2016-08-25T14:59:15.172665 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2016-08-25T14:59:15.846235 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     default: SSH address: 127.0.0.1:2222
+I, [2016-08-25T14:59:15.847219 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     default: SSH username: vagrant
+I, [2016-08-25T14:59:15.847219 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     default: SSH auth method: private key
+I, [2016-08-25T14:59:16.163794 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     default: Warning: Remote connection disconnect. Retrying...
+I, [2016-08-25T14:59:24.807791 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     default: 
+I, [2016-08-25T14:59:24.807791 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2016-08-25T14:59:24.807791 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     default: this with a newly generated keypair for better security.
+I, [2016-08-25T14:59:25.659944 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     default: 
+I, [2016-08-25T14:59:25.659944 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     default: Inserting generated public key within guest...
+I, [2016-08-25T14:59:25.987260 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     default: Removing insecure key from the guest if it's present...
+I, [2016-08-25T14:59:26.209107 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2016-08-25T14:59:27.209148 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: ==> default: Machine booted and ready!
+I, [2016-08-25T14:59:27.209148 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: ==> default: Checking for guest additions in VM...
+I, [2016-08-25T14:59:27.284764 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: ==> default: Setting hostname...
+I, [2016-08-25T14:59:28.578340 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2016-08-25T14:59:32.646936 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: [SSH] Established
+I, [2016-08-25T14:59:32.647939 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Vagrant instance <default-puppetlabs-ubuntu-1404-64-nocm> created.
+I, [2016-08-25T14:59:32.651944 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Finished creating <default-puppetlabs-ubuntu-1404-64-nocm> (0m42.31s).
+I, [2016-08-25T14:59:32.652446 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: -----> Converging <default-puppetlabs-ubuntu-1404-64-nocm>...
+I, [2016-08-25T14:59:32.653948 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Preparing files for transfer
+I, [2016-08-25T14:59:32.654448 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Preparing dna.json
+I, [2016-08-25T14:59:32.657454 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Resolving cookbook dependencies with Berkshelf 4.3.5...
+I, [2016-08-25T14:59:32.854781 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Removing non-cookbook files before transfer
+I, [2016-08-25T14:59:32.863822 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Preparing validation.pem
+I, [2016-08-25T14:59:32.868301 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Preparing client.rb
+I, [2016-08-25T14:59:32.895845 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: -----> Installing Chef Omnibus (12.11.18)
+I, [2016-08-25T14:59:32.896345 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2016-08-25T14:59:32.897364 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Trying wget...
+I, [2016-08-25T14:59:33.012540 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Download complete.
+I, [2016-08-25T14:59:33.023563 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: ubuntu 14.04 x86_64
+I, [2016-08-25T14:59:33.024543 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Getting information for chef stable 12.11.18 for ubuntu...
+I, [2016-08-25T14:59:33.025044 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: downloading https://omnitruck.chef.io/stable/chef/metadata?v=12.11.18&p=ubuntu&pv=14.04&m=x86_64
+I, [2016-08-25T14:59:33.026546 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:   to file /tmp/install.sh.1400/metadata.txt
+I, [2016-08-25T14:59:33.027046 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: trying wget...
+I, [2016-08-25T14:59:33.821298 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: sha1	bc4a6642d6093b54de856da31f0651a56b0fdc8e
+I, [2016-08-25T14:59:33.822301 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: sha256	f1cf5d0f6dd12d2d2296ec6d8dbb16363f8541f5c15298cafa70e65ff2b5a22f
+I, [2016-08-25T14:59:33.823303 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: url	https://packages.chef.io/stable/ubuntu/14.04/chef_12.11.18-1_amd64.deb
+I, [2016-08-25T14:59:33.824804 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: version	12.11.18
+I, [2016-08-25T14:59:33.825303 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: downloaded metadata file looks valid...
+I, [2016-08-25T14:59:33.836823 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: downloading https://packages.chef.io/stable/ubuntu/14.04/chef_12.11.18-1_amd64.deb
+I, [2016-08-25T14:59:33.837825 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:   to file /tmp/install.sh.1400/chef_12.11.18-1_amd64.deb
+I, [2016-08-25T14:59:33.838824 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: trying wget...
+I, [2016-08-25T14:59:38.877946 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Comparing checksum with sha256sum...
+I, [2016-08-25T14:59:39.192931 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Installing chef 12.11.18
+I, [2016-08-25T14:59:39.193915 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: installing with dpkg...
+I, [2016-08-25T14:59:39.247014 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Selecting previously unselected package chef.
+I, [2016-08-25T14:59:39.364682 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 57912 files and directories currently installed.)
+I, [2016-08-25T14:59:39.367687 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Preparing to unpack .../chef_12.11.18-1_amd64.deb ...
+I, [2016-08-25T14:59:39.368187 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Unpacking chef (12.11.18-1) ...
+I, [2016-08-25T14:59:43.896673 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Setting up chef (12.11.18-1) ...
+I, [2016-08-25T14:59:43.992324 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Thank you for installing Chef!
+I, [2016-08-25T14:59:44.080073 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Transferring files to <default-puppetlabs-ubuntu-1404-64-nocm>
+I, [2016-08-25T14:59:45.565930 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Starting Chef Client, version 12.11.18
+I, [2016-08-25T14:59:47.074366 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Creating a new client identity for default-puppetlabs-ubuntu-1404-64-nocm using the validator key.
+I, [2016-08-25T14:59:47.191528 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: resolving cookbooks for run list: ["testca::default"]
+I, [2016-08-25T14:59:47.213586 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Synchronizing Cookbooks:
+I, [2016-08-25T14:59:47.225581 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:   - testca (0.1.0)
+I, [2016-08-25T14:59:47.226584 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Installing Cookbook Gems:
+I, [2016-08-25T14:59:47.227586 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Compiling Cookbooks...
+I, [2016-08-25T14:59:47.228586 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Converging 7 resources
+I, [2016-08-25T14:59:47.229088 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Recipe: testca::_nginx
+I, [2016-08-25T15:00:01.624832 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:   * execute[update apt] action run
+I, [2016-08-25T15:00:01.624832 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     - execute apt-get update
+I, [2016-08-25T15:00:06.705553 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:   * apt_package[nginx] action install
+I, [2016-08-25T15:00:06.705553 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     - install version 1.4.6-1ubuntu3.5 of package nginx
+I, [2016-08-25T15:00:07.832332 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:   * service[nginx] action restart
+I, [2016-08-25T15:00:07.832833 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     - restart service service[nginx]
+I, [2016-08-25T15:00:07.877929 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:   * service[nginx] action enable (up to date)
+I, [2016-08-25T15:00:07.878906 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Recipe: testca::default
+I, [2016-08-25T15:00:07.890922 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:   * cookbook_file[/etc/sudoers] action create
+I, [2016-08-25T15:00:07.892425 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     - update content in file /etc/sudoers from 88b048 to 7ab83d
+I, [2016-08-25T15:00:07.893426 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     --- /etc/sudoers	2016-03-11 09:54:24.154351999 -0800
+I, [2016-08-25T15:00:07.894427 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     +++ /etc/.chef-sudoers20160825-1550-z3e7h0	2016-08-25 07:00:13.901011138 -0700
+I, [2016-08-25T15:00:07.895931 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     @@ -1,32 +1,13 @@
+I, [2016-08-25T15:00:07.896961 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -#
+I, [2016-08-25T15:00:07.896961 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -# This file MUST be edited with the 'visudo' command as root.
+I, [2016-08-25T15:00:07.898436 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -#
+I, [2016-08-25T15:00:07.899438 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -# Please consider adding local content in /etc/sudoers.d/ instead of
+I, [2016-08-25T15:00:07.899438 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -# directly modifying this file.
+I, [2016-08-25T15:00:07.901439 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -#
+I, [2016-08-25T15:00:07.901942 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -# See the man page for details on how to write a sudoers file.
+I, [2016-08-25T15:00:07.901942 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -#
+I, [2016-08-25T15:00:07.901942 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -Defaults	env_reset
+I, [2016-08-25T15:00:07.902441 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -Defaults	mail_badpass
+I, [2016-08-25T15:00:07.902441 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+I, [2016-08-25T15:00:07.905947 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -
+I, [2016-08-25T15:00:07.905947 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -# Host alias specification
+I, [2016-08-25T15:00:07.906446 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -
+I, [2016-08-25T15:00:07.906446 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -# User alias specification
+I, [2016-08-25T15:00:07.908450 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -
+I, [2016-08-25T15:00:07.908450 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -# Cmnd alias specification
+I, [2016-08-25T15:00:07.908952 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -
+I, [2016-08-25T15:00:07.908952 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:      # User privilege specification
+I, [2016-08-25T15:00:07.908952 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -root	ALL=(ALL:ALL) ALL
+I, [2016-08-25T15:00:07.911956 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     +root          ALL=(ALL) ALL
+I, [2016-08-25T15:00:07.911956 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:      
+I, [2016-08-25T15:00:07.912457 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -# Members of the admin group may gain root privileges
+I, [2016-08-25T15:00:07.913458 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -%admin ALL=(ALL) ALL
+I, [2016-08-25T15:00:07.913458 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     +#vagrant no password require
+I, [2016-08-25T15:00:07.913458 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:      
+I, [2016-08-25T15:00:07.914962 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -# Allow members of group sudo to execute any command
+I, [2016-08-25T15:00:07.915478 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -%sudo	ALL=(ALL:ALL) ALL
+I, [2016-08-25T15:00:07.915979 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     +vagrant       ALL=(ALL) NOPASSWD:ALL
+I, [2016-08-25T15:00:07.916462 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:      
+I, [2016-08-25T15:00:07.916963 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -# See sudoers(5) for more information on "#include" directives:
+I, [2016-08-25T15:00:07.916963 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     +# Members of the group 'admin' may gain root privileges
+I, [2016-08-25T15:00:07.918465 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     +%admin 		  ALL=(ALL) ALL
+I, [2016-08-25T15:00:07.918465 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:      
+I, [2016-08-25T15:00:07.919966 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     +# This is not a comment; see sudoers(5) for more information on "#include" directives
+I, [2016-08-25T15:00:07.921469 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:      #includedir /etc/sudoers.d
+I, [2016-08-25T15:00:07.921970 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     -#Defaults requiretty
+I, [2016-08-25T15:00:07.922971 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:   * template[/etc/nginx/sites-available/lb] action create
+I, [2016-08-25T15:00:07.923973 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     - create new file /etc/nginx/sites-available/lb
+I, [2016-08-25T15:00:07.924976 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     - update content in file /etc/nginx/sites-available/lb from none to efb08c
+I, [2016-08-25T15:00:07.926478 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     --- /etc/nginx/sites-available/lb	2016-08-25 07:00:13.932995138 -0700
+I, [2016-08-25T15:00:07.927498 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     +++ /etc/nginx/sites-available/.chef-lb20160825-1550-i0udxa	2016-08-25 07:00:13.932995138 -0700
+I, [2016-08-25T15:00:07.929481 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     @@ -1 +1,13 @@
+I, [2016-08-25T15:00:07.930484 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     +upstream appserver  {
+I, [2016-08-25T15:00:07.931985 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     +  server 192.168.33.12;
+I, [2016-08-25T15:00:07.932486 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     +  server 192.168.33.14;
+I, [2016-08-25T15:00:07.933488 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     +}
+I, [2016-08-25T15:00:07.933989 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     +
+I, [2016-08-25T15:00:07.935008 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     +server {
+I, [2016-08-25T15:00:07.935491 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     +  
+I, [2016-08-25T15:00:07.935491 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     +  location / {
+I, [2016-08-25T15:00:07.936994 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     +    proxy_pass  http://appserver;
+I, [2016-08-25T15:00:07.937496 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     +  }
+I, [2016-08-25T15:00:07.937496 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     +
+I, [2016-08-25T15:00:07.938997 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     +}
+I, [2016-08-25T15:00:07.939497 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     - change mode from '' to '0644'
+I, [2016-08-25T15:00:07.941000 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     - change owner from '' to 'root'
+I, [2016-08-25T15:00:07.942503 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     - change group from '' to 'root'
+I, [2016-08-25T15:00:07.943004 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:   * link[/etc/nginx/sites-enabled/lb] action create
+I, [2016-08-25T15:00:07.944005 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     - create symlink at /etc/nginx/sites-enabled/lb to /etc/nginx/sites-available/lb
+I, [2016-08-25T15:00:07.944504 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:   * file[/etc/nginx/sites-enabled/default] action delete[2016-08-25T07:00:13-07:00] WARN: File /etc/nginx/sites-enabled/default managed by file[/etc/nginx/sites-enabled/default] is really a symlink. Managing the source file instead.
+I, [2016-08-25T15:00:07.946025 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: [2016-08-25T07:00:13-07:00] WARN: Disable this warning by setting `manage_symlink_source true` on the resource
+I, [2016-08-25T15:00:07.947011 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: [2016-08-25T07:00:13-07:00] WARN: In a future Chef release, 'manage_symlink_source' will not be enabled by default
+I, [2016-08-25T15:00:07.948010 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: 
+I, [2016-08-25T15:00:07.948511 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     - delete file /etc/nginx/sites-enabled/default
+I, [2016-08-25T15:00:07.949512 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Recipe: testca::_nginx
+I, [2016-08-25T15:00:09.047558 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:   * service[nginx] action restart
+I, [2016-08-25T15:00:09.047558 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     - restart service service[nginx]
+I, [2016-08-25T15:00:09.102141 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: 
+I, [2016-08-25T15:00:09.103143 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Running handlers:
+I, [2016-08-25T15:00:09.104145 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Running handlers complete
+I, [2016-08-25T15:00:09.105647 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Chef Client finished, 8/9 resources updated in 23 seconds
+I, [2016-08-25T15:00:09.655553 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Finished converging <default-puppetlabs-ubuntu-1404-64-nocm> (0m37.00s).
+I, [2016-08-25T15:00:09.656577 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: -----> Setting up <default-puppetlabs-ubuntu-1404-64-nocm>...
+I, [2016-08-25T15:00:09.665566 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Finished setting up <default-puppetlabs-ubuntu-1404-64-nocm> (0m0.00s).
+I, [2016-08-25T15:00:09.666567 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: -----> Verifying <default-puppetlabs-ubuntu-1404-64-nocm>...
+I, [2016-08-25T15:00:09.668595 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Preparing files for transfer
+I, [2016-08-25T15:00:09.903957 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: -----> Installing Busser (busser)
+I, [2016-08-25T15:00:12.422271 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Fetching: thor-0.19.0.gemFetching: thor-0.19.0.gem (  3%)Fetching: thor-0.19.0.gem (  6%)Fetching: thor-0.19.0.gem (  9%)Fetching: thor-0.19.0.gem ( 12%)Fetching: thor-0.19.0.gem ( 15%)Fetching: thor-0.19.0.gem ( 18%)Fetching: thor-0.19.0.gem ( 21%)Fetching: thor-0.19.0.gem ( 24%)Fetching: thor-0.19.0.gem ( 27%)Fetching: thor-0.19.0.gem ( 30%)Fetching: thor-0.19.0.gem ( 33%)Fetching: thor-0.19.0.gem ( 35%)Fetching: thor-0.19.0.gem ( 53%)Fetching: thor-0.19.0.gem ( 71%)Fetching: thor-0.19.0.gem ( 89%)Fetching: thor-0.19.0.gem (100%)Fetching: thor-0.19.0.gem (100%)
+I, [2016-08-25T15:00:12.468357 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Successfully installed thor-0.19.0
+I, [2016-08-25T15:00:12.698620 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Fetching: busser-0.7.1.gemFetching: busser-0.7.1.gem ( 64%)Fetching: busser-0.7.1.gem (100%)Fetching: busser-0.7.1.gem (100%)
+I, [2016-08-25T15:00:12.762696 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Successfully installed busser-0.7.1
+I, [2016-08-25T15:00:12.764221 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: 2 gems installed
+I, [2016-08-25T15:00:12.775718 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Installing Busser plugins: busser-serverspec
+I, [2016-08-25T15:00:17.348943 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Plugin serverspec installed (version 0.5.10)
+I, [2016-08-25T15:00:17.360962 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: -----> Running postinstall for serverspec plugin
+I, [2016-08-25T15:00:18.931723 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Suite path directory /tmp/verifier/suites does not exist, skipping.
+I, [2016-08-25T15:00:18.932724 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Transferring files to <default-puppetlabs-ubuntu-1404-64-nocm>
+I, [2016-08-25T15:00:19.293879 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: -----> Running serverspec test suite
+I, [2016-08-25T15:00:19.294380 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: -----> Installing Serverspec..
+I, [2016-08-25T15:00:22.549118 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Fetching: diff-lcs-1.2.5.gemFetching: diff-lcs-1.2.5.gem (  5%)Fetching: diff-lcs-1.2.5.gem ( 10%)Fetching: diff-lcs-1.2.5.gem ( 16%)Fetching: diff-lcs-1.2.5.gem ( 22%)Fetching: diff-lcs-1.2.5.gem ( 27%)Fetching: diff-lcs-1.2.5.gem ( 32%)Fetching: diff-lcs-1.2.5.gem ( 38%)Fetching: diff-lcs-1.2.5.gem ( 44%)Fetching: diff-lcs-1.2.5.gem ( 49%)Fetching: diff-lcs-1.2.5.gem ( 55%)Fetching: diff-lcs-1.2.5.gem ( 60%)Fetching: diff-lcs-1.2.5.gem ( 66%)Fetching: diff-lcs-1.2.5.gem ( 99%)Fetching: diff-lcs-1.2.5.gem (100%)Fetching: diff-lcs-1.2.5.gem (100%)
+I, [2016-08-25T15:00:23.058085 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Fetching: rspec-expectations-3.5.0.gemFetching: rspec-expectations-3.5.0.gem ( 21%)Fetching: rspec-expectations-3.5.0.gem ( 42%)Fetching: rspec-expectations-3.5.0.gem ( 63%)Fetching: rspec-expectations-3.5.0.gem ( 84%)Fetching: rspec-expectations-3.5.0.gem (100%)Fetching: rspec-expectations-3.5.0.gem (100%)
+I, [2016-08-25T15:00:23.554029 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Fetching: rspec-mocks-3.5.0.gemFetching: rspec-mocks-3.5.0.gem ( 21%)Fetching: rspec-mocks-3.5.0.gem ( 42%)Fetching: rspec-mocks-3.5.0.gem ( 64%)Fetching: rspec-mocks-3.5.0.gem ( 85%)Fetching: rspec-mocks-3.5.0.gem (100%)Fetching: rspec-mocks-3.5.0.gem (100%)
+I, [2016-08-25T15:00:24.026247 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Fetching: rspec-3.5.0.gemFetching: rspec-3.5.0.gem (100%)Fetching: rspec-3.5.0.gem (100%)
+I, [2016-08-25T15:00:24.488652 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Fetching: rspec-its-1.2.0.gemFetching: rspec-its-1.2.0.gem (100%)Fetching: rspec-its-1.2.0.gem (100%)
+I, [2016-08-25T15:00:24.949656 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Fetching: multi_json-1.12.1.gemFetching: multi_json-1.12.1.gem ( 61%)Fetching: multi_json-1.12.1.gem (100%)Fetching: multi_json-1.12.1.gem (100%)
+I, [2016-08-25T15:00:25.421879 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Fetching: net-ssh-3.2.0.gemFetching: net-ssh-3.2.0.gem (  9%)Fetching: net-ssh-3.2.0.gem ( 18%)Fetching: net-ssh-3.2.0.gem ( 27%)Fetching: net-ssh-3.2.0.gem ( 35%)Fetching: net-ssh-3.2.0.gem ( 44%)Fetching: net-ssh-3.2.0.gem ( 53%)Fetching: net-ssh-3.2.0.gem ( 62%)Fetching: net-ssh-3.2.0.gem ( 71%)Fetching: net-ssh-3.2.0.gem ( 80%)Fetching: net-ssh-3.2.0.gem ( 89%)Fetching: net-ssh-3.2.0.gem ( 97%)Fetching: net-ssh-3.2.0.gem (100%)Fetching: net-ssh-3.2.0.gem (100%)
+I, [2016-08-25T15:00:25.947838 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Fetching: net-scp-1.2.1.gemFetching: net-scp-1.2.1.gem ( 48%)Fetching: net-scp-1.2.1.gem ( 98%)Fetching: net-scp-1.2.1.gem (100%)Fetching: net-scp-1.2.1.gem (100%)
+I, [2016-08-25T15:00:26.442369 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Fetching: net-telnet-0.1.1.gemFetching: net-telnet-0.1.1.gem ( 93%)Fetching: net-telnet-0.1.1.gem (100%)Fetching: net-telnet-0.1.1.gem (100%)
+I, [2016-08-25T15:00:26.924833 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Fetching: sfl-2.2.gemFetching: sfl-2.2.gem (100%)Fetching: sfl-2.2.gem (100%)
+I, [2016-08-25T15:00:27.394325 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Fetching: specinfra-2.61.2.gemFetching: specinfra-2.61.2.gem ( 20%)Fetching: specinfra-2.61.2.gem ( 40%)Fetching: specinfra-2.61.2.gem ( 60%)Fetching: specinfra-2.61.2.gem ( 81%)Fetching: specinfra-2.61.2.gem (100%)Fetching: specinfra-2.61.2.gem (100%)
+I, [2016-08-25T15:00:28.003615 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Fetching: serverspec-2.36.0.gemFetching: serverspec-2.36.0.gem ( 41%)Fetching: serverspec-2.36.0.gem ( 83%)Fetching: serverspec-2.36.0.gem (100%)Fetching: serverspec-2.36.0.gem (100%)
+I, [2016-08-25T15:00:28.078230 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: -----> serverspec installed (version 2.36.0)
+I, [2016-08-25T15:00:28.164361 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: /opt/chef/embedded/bin/ruby -I/tmp/verifier/suites/serverspec -I/tmp/verifier/gems/gems/rspec-support-3.5.0/lib:/tmp/verifier/gems/gems/rspec-core-3.5.2/lib /opt/chef/embedded/bin/rspec --pattern /tmp/verifier/suites/serverspec/\*\*/\*_spec.rb --color --format documentation --default-path /tmp/verifier/suites/serverspec
+I, [2016-08-25T15:00:28.544947 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: 
+I, [2016-08-25T15:00:28.546449 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: testca::default
+I, [2016-08-25T15:00:28.547451 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:   Service "nginx"
+I, [2016-08-25T15:00:28.653615 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: [32m    should be running[0m
+I, [2016-08-25T15:00:28.654617 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: [32m    should be enabled[0m
+I, [2016-08-25T15:00:28.656119 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:   Port "80"
+I, [2016-08-25T15:00:28.667135 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: [32m    should be listening[0m
+I, [2016-08-25T15:00:28.668136 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:   Command "curl -i -k -s 'http://localhost'"
+I, [2016-08-25T15:00:28.668638 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     exit_status
+I, [2016-08-25T15:02:28.913723 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: [32m      should eq 0[0m
+I, [2016-08-25T15:02:28.915216 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm:     stdout
+I, [2016-08-25T15:02:28.916727 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: [32m      should include "HTTP/1.1 504 Gateway Time-out"[0m
+I, [2016-08-25T15:02:28.918732 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: 
+I, [2016-08-25T15:02:28.919222 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Finished in 2 minutes 0.3 seconds (files took 0.33766 seconds to load)
+I, [2016-08-25T15:02:28.920726 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: [32m5 examples, 0 failures[0m
+I, [2016-08-25T15:02:28.922227 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: 
+I, [2016-08-25T15:02:28.981836 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Finished verifying <default-puppetlabs-ubuntu-1404-64-nocm> (2m19.31s).
+I, [2016-08-25T15:02:28.982820 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: -----> Destroying <default-puppetlabs-ubuntu-1404-64-nocm>...
+I, [2016-08-25T15:02:32.356804 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: ==> default: Forcing shutdown of VM...
+I, [2016-08-25T15:02:33.629762 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: ==> default: Destroying VM and associated drives...
+I, [2016-08-25T15:02:34.020509 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Vagrant instance <default-puppetlabs-ubuntu-1404-64-nocm> destroyed.
+I, [2016-08-25T15:02:34.024958 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Finished destroying <default-puppetlabs-ubuntu-1404-64-nocm> (0m5.04s).
+I, [2016-08-25T15:02:34.025959 #21340]  INFO -- default-puppetlabs-ubuntu-1404-64-nocm: Finished testing <default-puppetlabs-ubuntu-1404-64-nocm> (3m43.70s).

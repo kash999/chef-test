@@ -1,0 +1,13 @@
+upstream appserver  {
+<% @app_servers.each do |server| %>
+  server <%= server %>;
+<% end %>
+}
+
+server {
+  
+  location / {
+    proxy_pass  http://appserver;
+  }
+
+}
