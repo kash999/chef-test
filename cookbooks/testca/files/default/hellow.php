@@ -1,5 +1,5 @@
 <?php
 
-print('Hello capita');
+print('Hello test');
 
 ?>
