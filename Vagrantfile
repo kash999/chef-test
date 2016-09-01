@@ -32,7 +32,7 @@ Vagrant.configure(2) do |config|
   config.vm.define "lb", primary: true do |lb|
      lb.vm.hostname = "lb"
      lb.vm.network "private_network", ip: "192.168.33.10"
-     lb.vm.network  "forwarded_port"  , host: 80 , guest: 80 # so can run http://localhost:80
+     lb.vm.network  "forwarded_port"  , host: 8089 , guest: 80 # so can run http://localhost:80
      lb.vm.provision "shell", inline: <<-SHELL
       sudo apt-get update
      SHELL
